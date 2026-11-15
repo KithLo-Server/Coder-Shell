@@ -32,6 +32,6 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: .
-          file: Dockerfile.shell
+          file: Dockerfile
           push: true
           tags: ghcr.io/kithlo-server/coder-shell:latest
